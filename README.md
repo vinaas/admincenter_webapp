@@ -7,7 +7,13 @@
   ```shell
     gulp export
   ```
- Export sẽ làm tăng tốc độ khi chạy thực tế, do kết hợp các bundle và zip
+ Export sẽ làm tăng tốc độ khi chạy thực tế, do kết hợp các bundle và zip.
+
+ sau khi export nhớ chạy lại code dưới để có thể test local được
+
+ ```shell
+   gulp unbundle
+ ```
 
 2. Copy code từ 2 folder /dist/* và /jspm_packages/* vào thư mục /export
 
