@@ -13,7 +13,6 @@ System.config({
     "npm:*": "jspm_packages/npm/*",
     "kendo.*": "jspm_packages/github/kendo-labs/bower-kendo-ui@2016.1.217/js/kendo.*.js"
   },
-
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.0.3",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.0.2",
